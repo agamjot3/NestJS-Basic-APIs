@@ -1,0 +1,14 @@
+The Following are the routes to run this application.
+
+**************** Students****************
+
+/GET/ Get All Students --- localhost:8083/students
+/GET/ Get Particular Student --- localhost:8083/students/:studentId
+/POST/ Create Student --- localhost:8083/students/
+/PUT/ Update Student --- localhost:8083/students/:studentId
+
+*************** Teachers****************
+/GET/ Get All Teachers --- localhost:8083/teachers
+/GET/ Get Particular Teacher --- localhost:8083/teacher/:teacherId
+/Get/ Get All Students For Particular Teacher --- localhost:8083/teachers/:teacherId/students
+/PUT/ Update Student for Particular Teacher --- localhost:8083/teachers/:teacherId/students/:studentId
